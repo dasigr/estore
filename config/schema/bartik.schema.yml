@@ -1,0 +1,5 @@
+# Schema for the configuration files of the eStore theme.
+
+estore.settings:
+  type: theme_settings
+  label: 'eStore settings'

@@ -1,0 +1,64 @@
+# THEMENAME.info.yml file for eStore theme.
+name: eStore
+type: theme
+base theme: classy
+description: 'An eCommerce theme.'
+package: Custom
+core_version_requirement: ^8 || ^9
+libraries:
+  - estore/classy.base
+  - estore/classy.messages
+  - core/normalize
+  - estore/global-styling
+
+libraries-extend:
+  core/drupal.dialog:
+    - estore/classy.dialog
+  core/drupal.dropbutton:
+    - estore/classy.dropbutton
+  core/drupal.progress:
+    - estore/classy.progress
+  file/drupal.file:
+    - estore/classy.file
+  filter/drupal.filter.admin:
+    - estore/filter
+  filter/drupal.filter:
+    - estore/filter
+  media/media_embed_ckeditor_theme:
+    - estore/classy.media_embed_ckeditor_theme
+  media_library/view:
+    - estore/classy.media_library
+  media_library/widget:
+    - estore/classy.media_library
+  tour/tour:
+    - estore/tour
+  user/drupal.user:
+    - estore/user
+
+ckeditor_stylesheets:
+  - css/base/elements.css
+  - css/components/captions.css
+  - css/components/table.css
+  - css/components/text-formatted.css
+  - css/classy/components/media-embed-error.css
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+

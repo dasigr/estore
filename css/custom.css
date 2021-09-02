@@ -1,0 +1,13 @@
+.product-image {
+  float: left;
+  width: 46%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-details {
+  float: left;
+  width: 46%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
